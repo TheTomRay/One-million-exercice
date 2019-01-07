@@ -1,0 +1,105 @@
+.navbarOne>div
+{
+    width: 100%;
+}
+.navbarOne>div>div
+{
+    padding-left: 12%;
+}
+#home
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+#home>h1
+{
+    padding-bottom: 35px;
+}
+#home>p
+{
+    padding-bottom: 15px;
+}
+#home>img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 5%;
+}
+/*************************   barre rouge ss les title *********************/
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10%;
+    height: 1px;
+    background-color: red;
+    border: none; /*on supprime le style par défaut*/
+}
+#who
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#who>img
+{
+    padding-bottom: 15px;
+}
+.span, #who>h2, #get-involved>h2
+{
+    color: red;
+}
+#get-involved
+{
+    width: 100%;
+    height: 100%;
+    background-color: #DCD7D7;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.divI
+{
+    width: auto;
+    height: 50px;
+}
+#get-involved i
+{ 
+   /* font-size: 3em;*/
+}
+#get-involved>div
+{
+    margin-top: 15px;
+}
+#get-involved>div>div
+{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+/* font */
+.fa-stack { font-size: 1.5em; }
+i { vertical-align: middle; }
+/************ end font****/ 
+footer
+{
+    width: 100%;
+    height: 180px;
+    background-color: red;
+    
+}
+footer>img
+{
+    margin-left: 165px;
+    margin-top: 85px;
+    
+}
